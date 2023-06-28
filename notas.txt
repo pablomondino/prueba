@@ -6,7 +6,8 @@ en casa se ve bien con la estructura lateral a la izquierda del nav
 En el proyecto he usado metodología <>bem en la seccion
  principal (index)
 
-
+ir poniendo avance en carpeta
+proyecto entregado1 en clase de github
 ------------------------------------------------
 
 
