@@ -8,6 +8,38 @@ En el proyecto he usado metodología <>bem en la seccion
 
 ir poniendo avance en carpeta
 proyecto entregado1 en clase de github
+
+DUDAS
+
+A los gris areas yo lo hice con la etiqueta nav, footer,
+header y usé dos id para dos secciones distintas 
+Esta estructura la mantengo en todas las paginas
+Se puede hacer un grid area con una clase???
+-----------------------
+
+voy a hacer seccion tarifa manejandome con clase
+clase 6 23/5  minuto 48 explica layout con grid
+trabajando con los grid area los grid item son cada uno 
+de los grid area
+a cada grid area le asigno un identificador
+
+profe usa etiquetas y usa dos secciones que toma el id
+
+profe maneja id seccion 1 y seccion 2 con id
+minuto 54
+
+% del contenedor
+fraccion sobre espacio disponible
+
+mi grid container es el body
+podria usar main y section
+para hacerlo general
+
+
+deje clase grid en 1:48 minutos
+
+
+
 ------------------------------------------------
 
 
@@ -15,7 +47,7 @@ Muchas gracias por la entrega. En general esta bien, con algunos inconvenientes 
 
 
 
-- Estructura Avanzada de la Web: ✅ El sitio está bien estructurado y evolucionado con respecto a la entrega anterior. El código está bien, habría que revisar que no queden esas enormes porciones de código comentado ya que rompen la prolijidad y legibilidad del código. Tené en cuenta que una vez subido el repositorio a gitHub eso queda público y no se va a ver bien. 
+- Estructura Avanzada de la Web: ✅ El sitio está bien estructurado y evolucionado con respecto a la entrega anterior. El código está bien, habría que revisar que no queden esas enormes porciones de código comentado ya que rompen la prolijidad y legibilidad del código. Tené en cuenta que una vez subido el repositorio a gitHub eso queda pú/blico y no se va a ver bien. 
 
 
 

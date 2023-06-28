@@ -16,6 +16,7 @@ body {
         "nav    imagenes-departamentos"
         "nav    footer";
     font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
 }
 
 /*boton*/
@@ -87,8 +88,10 @@ nav ul li {
 /********************     footer    *************/
 
 /*grid area------>>>>footer*/
+/* aca corrijo y hago el grid area el footer y no el $footer
+como estaba antes*/
 
-#footer {
+footer {
     grid-area: footer;
     background-color: #6d8ea0;
     display: flex;
@@ -459,9 +462,10 @@ estos estilos se aplican para resoluciones menores a 586*/
 
     .depto {
         margin: 20px;
-        width: auto;
+        width: 100%;
         position: relative;
         left: 0;
+
     }
 
     #footer {
