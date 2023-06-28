@@ -1,0 +1,47 @@
+Este proyecto sigo trabajando el 28/6 para poder mostrar cambios 
+
+Este proyecto estoyarreglndo todas las pagina 
+en casa se ve bien con la estructura lateral a la izquierda del nav
+
+En el proyecto he usado metodología <>bem en la seccion
+ principal (index)
+
+
+------------------------------------------------
+
+
+Muchas gracias por la entrega. En general esta bien, con algunos inconvenientes de maquetado pero hasta cierto punto cumpliendo con las consignas.
+
+
+
+- Estructura Avanzada de la Web: ✅ El sitio está bien estructurado y evolucionado con respecto a la entrega anterior. El código está bien, habría que revisar que no queden esas enormes porciones de código comentado ya que rompen la prolijidad y legibilidad del código. Tené en cuenta que una vez subido el repositorio a gitHub eso queda público y no se va a ver bien. 
+
+
+
+En la parte de los HTML, revisá que no queden enlaces con href #, sino que sean enlaces al index o hacia donde corresponda; y que los enlaces de redes sociales tengan el atributo targer="_blank" para que se abran en una nueva pestaña. Otro detalle es que estos logos sería bueno incorporarlos como íconos o como imágenes png con fondo transparente, para que no queden con ese recuadro blanco que baja un poco la calidad.
+
+
+
+Hay un detalle con los links en el head de tus HTML y es que siempre el link de tu css propio tiene que ser el último, por la cascada, después de Bootstrap, de las fuentes de Google, etc.
+
+
+
+Fuera de eso, el problema principal es el maquetado de las páginas de Faq, Tarifa y Contacto, donde se pierde la estructura y el sitio se rompe, quedando no funcional.
+
+
+
+- Estilo Avanzado de la web: ✅ Esta parte viene bien en cuanto a estética, coherente a lo largo de todo el sitio y hay muy buen uso de recursos. La parte responsive todavía requiere bastante trabajo ya que si bien el contenido ya se está ajustando, no hay ningún HTML que haya quedado completamente adaptado, con la estructura sin romperse, sin scroll horizontal. Revisar que cómo queda el navbar, que se vea igual en todas las páginas, y que el contenido no quede en columnas muy angostas y se aproveche el espacio en la pantalla.
+
+
+
+- Repositorio en GitHub: ✅Sitio correctamente subido a GitHub. Faltó entregar link) de gitHub Pages.
+
+
+
+Saludos!
+
+
+
+22/06 11:53
+
+*******************************************************

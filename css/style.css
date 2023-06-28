@@ -10,7 +10,6 @@ body {
     display: grid;
     grid-template-columns: 100px 1fr;
     grid-template-rows: 140px auto auto auto;
-    /* yo puse en tercer columna auto y anda bien*/
     grid-template-areas:
         "nav    header"
         "nav    portada"
@@ -34,11 +33,12 @@ body {
 a {
     text-decoration: none;
     font-weight: bold;
-    color: black;
+    color: white;
 }
+
 li {
     list-style: none;
-  }
+}
 
 
 /*******************  header   **********************/
@@ -46,9 +46,9 @@ li {
 /* grid area ---->>>nav   */
 nav {
     grid-area: nav;
-    background-color: green;
+    background-color: black;
     height: 100%;
-
+    color: white;
 }
 
 /* grid area ---->>>header   */
@@ -56,13 +56,12 @@ nav {
 header {
     grid-area: header;
 
-    background-color: red;
+    background-color: #016fb9;
+    ;
 }
 
 /* este es el id del header*/
 #header {
-    /*background-color: #016fb9;*/
-    /*ESTE ES EL COLR DE FONDO*/
     width: 100%;
     display: flex;
     justify-content: center;
@@ -72,14 +71,12 @@ header {
 header img {
     position: relative;
     right: 100px;
-
 }
 
 nav {
     display: flex;
     position: fixed;
     left: 0;
-
 }
 
 nav ul li {
@@ -93,12 +90,11 @@ nav ul li {
 
 #footer {
     grid-area: footer;
-    background-color: orange;
+    background-color: #6d8ea0;
     display: flex;
     flex-direction: column;
     padding-top: 10px;
     padding-bottom: 10px;
-    /*background-color: #6d8ea0;*/
     justify-content: center;
     align-items: center;
     width: 100%;
@@ -122,7 +118,6 @@ footer h2 {
 
 
 #footer-comunicate {
-
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -166,8 +161,6 @@ footer h2 {
     justify-content: center;
 }
 
-
-
 #footer-seguinos {
     display: flex;
     flex-direction: column;
@@ -181,7 +174,6 @@ footer h2 {
 #nav-engloba-seguinos {
     display: flex;
     flex-direction: row;
-
 }
 
 #face-inst-twitt {
@@ -196,9 +188,6 @@ footer h2 {
 }
 
 
-
-
-
 /*********************    Estilos index    ****************/
 
 
@@ -208,29 +197,21 @@ footer h2 {
     padding: 30px;
     grid-area: portada;
     text-align: center;
-    background-color: yellow;
+    background-color: white;
     display: flex;
     flex-direction: column;
-    /*width: auto;*/
-
     align-items: center;
-    /*importante si no ponia esta quedaba gigante , para mi ocupaba todo lo disponible*/
     justify-content: center;
 }
-
-#portada img {}
 
 #portada h1 {
     font-size: xx-large;
     padding-top: 10px;
     padding-bottom: 30px;
     background-color: #6d8ea0;
-    /*margin-bottom: 20px;*/
-
 }
 
 #portada p {
-    /*display: block;*/
     padding: 20px 80px;
     text-align: center;
     margin-top: 30px;
@@ -243,11 +224,7 @@ footer h2 {
 /*grid area*/
 #imagenes-departamentos {
     grid-area: imagenes-departamentos;
-    background-color: blue;
-    /*margin-left: 10vw;*/
-    /*text-align: center;*/
-    /*background-color: lightblue;*/
-    /* width: 100vw;*/
+    background-color: lightblue;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -259,41 +236,32 @@ footer h2 {
 
 }
 
-/*
-#imagenes-departamentos .boton-1 {
-    position: relative;
-    left: 55px;
-}
 
-#imagenes-departamentos .boton-2 {
-    position: relative;
-    left: 10px;
-}
-
-#imagenes-departamentos .boton-3 {
-    position: relative;
-    left: 2px;
-}
-
-#imagenes-departamentos .boton-4 {
-    position: relative;
-    left: 10px;
-}
-*/
 .depto {
     margin: 20px;
     /*display: inline-block;*/
     width: 40vw;
     position: relative;
     left: 70px;
-
 }
 
-/*
-.depto2 {
-    margin-left: 60px;
+.depto__imagen {
+    border: darkblue solid 2px;
 }
-*/
+
+.depto__boton {
+    background-color: rgb(31, 72, 239);
+    color: white;
+    font-size: 15px;
+    padding: 8px;
+    border-radius: 10px;
+    border: solid rgb(3, 3, 60) 2px;
+    box-shadow: 50px 3px 57px 18px rgba(0, 0, 0, 0.65);
+}
+
+.depto__boton:hover {
+    background-color: green;
+}
 
 /*********************   Sobre Nosotros    *****************/
 
@@ -324,8 +292,8 @@ footer h2 {
 /* seccion donde nos encontramos*/
 
 #donde-nos-encontramos {
-    background-color: #6d8ea0;
-    rgba(8, 229, 245, 0.979);
+
+    background-color: lightblue;
     text-align: center;
 }
 
@@ -334,11 +302,9 @@ footer h2 {
 }
 
 #donde-nos-encontramos div p {
-    /*display: inline-block;*/
     width: 45%;
     padding: 15px;
     text-align: justify;
-   
     bottom: 195px;
 }
 
@@ -347,12 +313,16 @@ footer h2 {
     width: 45%;
 }
 
-#engloba-iframe-y-p{
+#engloba-iframe-y-p {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: lightblue;
 }
 
+#engloba-iframe-y-p p {
+    color: black;
+}
 
 /**********************   contacto    *****************/
 
@@ -439,7 +409,7 @@ estos estilos se aplican para resoluciones a 1024*/
 
     nav {
         flex-direction: row;
-       
+
 
         position: static;
         height: auto;
@@ -473,15 +443,13 @@ estos estilos se aplican para resoluciones menores a 586*/
         font-family: Arial, Helvetica, sans-serif;
     }
 
-    #header{
+    #header {
         flex-direction: column;
     }
-    #portada img {
-      /*  display: none;*/
-       /* object-fit: contain;*/
-       height: 300px;
-       width: 400px;
 
+    #portada img {
+        height: 200px;
+        width: 300px;
     }
 
 
@@ -491,33 +459,32 @@ estos estilos se aplican para resoluciones menores a 586*/
 
     .depto {
         margin: 20px;
-        /*display: inline-block;*/
         width: auto;
         position: relative;
         left: 0;
     }
 
     #footer {
-          justify-content: space-around;
-          height: 500px;
-      
+        justify-content: space-around;
+        height: 500px;
+
     }
 
-   
+
     #engloba-comunicate-seguinos {
         flex-direction: column;
-      
+
     }
 
-    nav #barra-paginas{
+    nav #barra-paginas {
         flex-direction: column;
-       /* align-items: center;*/
         font-size: large;
-     
+
 
     }
-    nav #barra-pagina ul li{
-    text-decoration: none;
-    list-style: none;
+
+    nav #barra-pagina ul li {
+        text-decoration: none;
+        list-style: none;
     }
 }
