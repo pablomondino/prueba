@@ -10,11 +10,18 @@ ir poniendo avance en carpeta
 proyecto entregado1 en clase de github
 
 DUDAS
-
-A los gris areas yo lo hice con la etiqueta nav, footer,
+Usé como hicimos en clase el body como grid conteiner 
+y las  etiquetas son los grid items y usa dos secciones
+ que toma el id
+A los grid areas yo lo hice con la etiqueta nav, footer,
 header y usé dos id para dos secciones distintas 
 Esta estructura la mantengo en todas las paginas
 Se puede hacer un grid area con una clase???
+
+Yo la estructura la armé para todas las paginas. Esto está bien??
+pasa que primero armé el index y me queó como nombre muy específico como por ejemplo  portada  y imagenes-departamento. 
+. Tendría que cambiar los nombres  de imágenes-departamentos y portada por un nombre mas general no? como seccion-superior y sección-inferio
+
 -----------------------
 
 voy a hacer seccion tarifa manejandome con clase
@@ -80,3 +87,46 @@ Saludos!
 *******************************************************
 negocio
 
+Desplegando tus proyectos con GitHub Pages
+https://www.youtube.com/watch?v=9sxxcuyrfZA
+
+https://ibb.co/Fg0VWmX
+*********************************************************
+
+lUCILA
+ya arme el layout con grid y usé display flex para acomodar componentes.  Llo hice adaptativo responsive de  desk , Tablet y mobile
+
+--->>>Podrías por ejemplo agregarle al contenedor de index una class grid-area-index y colocar solo la propiedad grid-template-areas para index, y lo mismo para otra sección pero cambiando el nombre de la clase
+O directamente armar dos grillas distintas
+
+--->>>Claro, podes ponerle un nombre más general si no queres declarar la grilla nuevamente
+---->>>Sería armar una grilla para cada html, con sus respectivas áreas cada uno. Con una class lo llamas en el css
+
+--->>>No, el id sólo se puede utilizar una vez en todo el proyecto, por eso usamos clases o directamente selectores de etiqueta
+
+con respecto al mobile se me desplaza horizontalmente esto seguramente debe ser por las imágenes no? tendría que achicarlas
+--->>>Tendrías que darles un width 100% para que no se desborde de su contenedor 😊
+
+
+
+JOSÉ LUIS
+
+Yo la estructura la armé para todas las paginas. Esto está bien??
+pasa que primero armé el index y me queó como nombre muy específico como por ejemplo  portada  y imagenes-departamento. 
+. Tendría que cambiar los nombres  de imágenes-departamentos y portada por un nombre mas general no? como seccion-superior y sección-inferio
+
+--->>>La realidad es que deberia ser un grid por cada HTML, no uno que lo reutilices en varios. Se pueden usar clases y seria lo indicado para hacer un grid.
+
+y como hago? porque al grid del body lo hice en el style.css
+como hago el grid de a pagina Sobre nosotros?
+
+---->>>Aplícale una clase al body Pablo 🙌☺
+
+
+
+<CLASE GRID 2 HACE EJEMPLO DE LAS MEDIA QUERYS
+1:24
+
+1:50
+PARA VER QUE SE ESCAPA QUE PRODUCE SCROLL HORIZONTAÑ
+poner selector universal border 1px redes 
