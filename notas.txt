@@ -130,3 +130,8 @@ como hago el grid de a pagina Sobre nosotros?
 1:50
 PARA VER QUE SE ESCAPA QUE PRODUCE SCROLL HORIZONTAÑ
 poner selector universal border 1px redes 
+
+
+para analizar paginas
+lighthouse
+https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk/related
