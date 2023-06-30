@@ -135,3 +135,8 @@ poner selector universal border 1px redes
 para analizar paginas
 lighthouse
 https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk/related
+
+
+ver clase sobreNosotros-section1
+
+

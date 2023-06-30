@@ -267,6 +267,11 @@ footer h2 {
 }
 
 /*********************   Sobre Nosotros    *****************/
+.sobreNosotros-section1{
+    background-color: black;
+}
+
+
 
 /* seccion sobrenosotros*/
 #sobre-nosotros {
