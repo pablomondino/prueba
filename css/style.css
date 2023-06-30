@@ -12,8 +12,8 @@ body {
     grid-template-rows: 140px auto auto auto;
     grid-template-areas:
         "nav    header"
-        "nav    portada"
-        "nav    imagenes-departamentos"
+        "nav    section1"
+        "nav    section2"
         "nav    footer";
     font-family: Arial, Helvetica, sans-serif;
     min-height: 100vh;
@@ -58,7 +58,7 @@ header {
     grid-area: header;
 
     background-color: #016fb9;
-    ;
+    
 }
 
 /* este es el id del header*/
@@ -194,11 +194,11 @@ footer h2 {
 /*********************    Estilos index    ****************/
 
 
-/* seccion portada*/
+/* seccion1 (ex portada)*/
 /*grid area*/
-#portada {
+#section1 {
     padding: 30px;
-    grid-area: portada;
+    grid-area: section1;
     text-align: center;
     background-color: white;
     display: flex;
@@ -207,14 +207,14 @@ footer h2 {
     justify-content: center;
 }
 
-#portada h1 {
+#section1 h1 {
     font-size: xx-large;
     padding-top: 10px;
     padding-bottom: 30px;
     background-color: #6d8ea0;
 }
 
-#portada p {
+#section1 p {
     padding: 20px 80px;
     text-align: center;
     margin-top: 30px;
@@ -223,10 +223,10 @@ footer h2 {
     font-size: large;
 }
 
-/* seccion imagenes departamentos*/
+/* section2 seccion imagenes departamentos*/
 /*grid area*/
-#imagenes-departamentos {
-    grid-area: imagenes-departamentos;
+#section2 {
+    grid-area: section2;
     background-color: lightblue;
     display: flex;
     flex-direction: row;
@@ -404,8 +404,8 @@ estos estilos se aplican para resoluciones a 1024*/
         grid-template-areas:
             "header"
             "nav"
-            "portada"
-            "imagenes-departamentos"
+            "section1"
+            "section2"
             "footer";
         font-family: Arial, Helvetica, sans-serif;
     }
@@ -440,8 +440,8 @@ estos estilos se aplican para resoluciones menores a 586*/
         grid-template-areas:
             "header"
             "nav"
-            "portada"
-            "imagenes-departamentos"
+            "section1"
+            "section2"
             "footer";
         font-family: Arial, Helvetica, sans-serif;
     }
@@ -450,13 +450,13 @@ estos estilos se aplican para resoluciones menores a 586*/
         flex-direction: column;
     }
 
-    #portada img {
+    #section1 img {
         height: 200px;
         width: 300px;
     }
 
 
-    #imagenes-departamentos {
+    #section2 {
         flex-direction: column;
     }
 
