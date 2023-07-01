@@ -140,3 +140,7 @@ https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjp
 ver clase sobreNosotros-section1
 
 
+nota sabado pude avanzar bastante clarifique concepto de grid area
+
+concentrarse en el footer del index que esta correcto
+al modificar id por clase se cambiarin en las otras paginas

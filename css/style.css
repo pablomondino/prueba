@@ -6,18 +6,30 @@
 }
 
 /***************** estilos globales ********/
+.grid-template {
+    grid-template-areas:
+        "nav    header"
+        "nav    section1"
+        "nav    section2"
+        "nav    footer";
+}
+
+
 body {
     display: grid;
+    /*
     grid-template-columns: 100px 1fr;
     grid-template-rows: 140px auto auto auto;
     grid-template-areas:
         "nav    header"
         "nav    section1"
         "nav    section2"
-        "nav    footer";
+        "nav    footer";*/
     font-family: Arial, Helvetica, sans-serif;
     min-height: 100vh;
 }
+
+
 
 /*boton*/
 .boton {
@@ -29,6 +41,13 @@ body {
     border: solid rgb(3, 3, 60) 2px;
     box-shadow: 50px 3px 57px 18px rgba(0, 0, 0, 0.65);
 }
+
+/* ver
+.boton:hover{
+
+    background-color: green;
+}
+*/
 
 /* a */
 a {
@@ -42,7 +61,8 @@ li {
 }
 
 
-/*******************  header   **********************/
+
+/*******************  nav   **********************/
 
 /* grid area ---->>>nav   */
 nav {
@@ -50,28 +70,6 @@ nav {
     background-color: black;
     height: 100%;
     color: white;
-}
-
-/* grid area ---->>>header   */
-
-header {
-    grid-area: header;
-
-    background-color: #016fb9;
-    
-}
-
-/* este es el id del header*/
-#header {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-header img {
-    position: relative;
-    right: 100px;
 }
 
 nav {
@@ -85,11 +83,37 @@ nav ul li {
     margin-top: 30px;
 }
 
+
+/*******************  header   **********************/
+
+
+/* grid area ---->>>header   */
+
+header {
+    grid-area: header;
+
+    background-color: #016fb9;
+
+}
+
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header img {
+    position: relative;
+    right: 100px;
+}
+
+
 /********************     footer    *************/
 
 /*grid area------>>>>footer*/
-/* aca corrijo y hago el grid area el footer y no el $footer
-como estaba antes*/
+
 
 footer {
     grid-area: footer;
@@ -108,7 +132,7 @@ footer h2 {
     color: white;
 }
 
-#engloba-comunicate-seguinos {
+.engloba-comunicate-seguinos {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -120,7 +144,7 @@ footer h2 {
 
 
 
-#footer-comunicate {
+.footer-comunicate {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -130,7 +154,7 @@ footer h2 {
     margin: 30px;
 }
 
-#nav-engloba-comunicate {
+.nav-engloba-comunicate {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -138,33 +162,35 @@ footer h2 {
     width: 100%;
 }
 
-#ws-y-google {
+.ws-y-google {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
 }
 
-#ws-y-google li {
+.ws-y-google li {
     padding: 20px;
     list-style: none;
 }
 
-#google {
+.ws {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-#ws {
+.google {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-#footer-seguinos {
+
+
+.footer-seguinos {
     display: flex;
     flex-direction: column;
     background-color: #6d8ea0;
@@ -196,7 +222,8 @@ footer h2 {
 
 /* seccion1 (ex portada)*/
 /*grid area*/
-#section1 {
+
+.section1 {
     padding: 30px;
     grid-area: section1;
     text-align: center;
@@ -207,14 +234,14 @@ footer h2 {
     justify-content: center;
 }
 
-#section1 h1 {
+.section1 h1 {
     font-size: xx-large;
     padding-top: 10px;
     padding-bottom: 30px;
     background-color: #6d8ea0;
 }
 
-#section1 p {
+.section1 p {
     padding: 20px 80px;
     text-align: center;
     margin-top: 30px;
@@ -225,7 +252,7 @@ footer h2 {
 
 /* section2 seccion imagenes departamentos*/
 /*grid area*/
-#section2 {
+.section2 {
     grid-area: section2;
     background-color: lightblue;
     display: flex;
@@ -269,8 +296,9 @@ footer h2 {
 /*********************   Sobre Nosotros    *****************/
 
 /* Estilos para la página sobrenosotros.html */
-.sobreNosotros-section1{
-    background-color: blue !important;
+
+.sobreNosotros-section1 {
+    background-color: blue;
 }
 
 
@@ -298,6 +326,8 @@ footer h2 {
     width: 80vw;
     text-align: center;
 }
+
+
 
 /* seccion donde nos encontramos*/
 
@@ -334,6 +364,47 @@ footer h2 {
     color: black;
 }
 
+/**********************   tarifa  *****************/
+
+#titulo_de_tabla {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: #6d8ea0;
+    text-align: center;
+}
+
+#explicacion-tabla {
+    margin: 30px 200px;
+}
+
+
+#tabla {
+    margin: 50px;
+    position: relative;
+    left: 25%;
+}
+
+/**************************  faq   ********************/
+
+#preguntas-frecuentes-titulo {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: #6d8ea0;
+    text-align: center;
+}
+
+#preguntas-frecuentes-preguntas {
+    padding: 50px;
+    justify-content: S;
+}
+
+#preguntas-frecuentes-preguntas div {
+    margin-top: 20px;
+}
+
+
+
+
 /**********************   contacto    *****************/
 
 
@@ -360,54 +431,26 @@ form {
 }
 
 
-/**************************  faq   ********************/
 
-#preguntas-frecuentes-titulo {
-    padding-top: 25px;
-    padding-bottom: 25px;
-    background-color: #6d8ea0;
-    text-align: center;
-}
-
-#preguntas-frecuentes-preguntas {
-    padding: 50px;
-    justify-content: S;
-}
-
-#preguntas-frecuentes-preguntas div {
-    margin-top: 20px;
-}
-
-/**********************   tarifa  *****************/
-
-#titulo_de_tabla {
-    padding-top: 25px;
-    padding-bottom: 25px;
-    background-color: #6d8ea0;
-    text-align: center;
-}
-
-#explicacion-tabla {
-    margin: 30px 200px;
-}
-
-
-#tabla {
-    margin: 50px;
-    position: relative;
-    left: 25%;
-}
+/********
+medias queris
+**********************/
 
 
 /* este es el tope para tablets
 estos estilos se aplican para resoluciones a 1024*/
 /*agregando media query*/
 @media (max-width:1024px) {
+
+
     body {
+
         /* display: grid;*/
         grid-template-columns: 1fr;
         grid-template-rows: auto auto auto auto auto;
         /* yo puse en tercer columna auto y anda bien*/
+
+        /*esto saco porque puse en una clase
         grid-template-areas:
             "header"
             "nav"
@@ -415,6 +458,17 @@ estos estilos se aplican para resoluciones a 1024*/
             "section2"
             "footer";
         font-family: Arial, Helvetica, sans-serif;
+         */
+
+    }
+
+    .grid-template {
+        grid-template-areas:
+            "header"
+            "nav"
+            "section1"
+            "section2"
+            "footer";
     }
 
     nav {
@@ -444,13 +498,23 @@ estos estilos se aplican para resoluciones menores a 586*/
         grid-template-columns: 1fr;
         grid-template-rows: auto auto auto auto auto;
         /* yo puse en tercer columna auto y anda bien*/
+        /*grid-template-areas:
+            "header"
+            "nav"
+            "section1"
+            "section2"
+            "footer";
+            */
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .grid-template {
         grid-template-areas:
             "header"
             "nav"
             "section1"
             "section2"
             "footer";
-        font-family: Arial, Helvetica, sans-serif;
     }
 
     #header {
