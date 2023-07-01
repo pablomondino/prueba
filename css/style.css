@@ -267,8 +267,10 @@ footer h2 {
 }
 
 /*********************   Sobre Nosotros    *****************/
+
+/* Estilos para la página sobrenosotros.html */
 .sobreNosotros-section1{
-    background-color: black;
+    background-color: blue !important;
 }
 
 
