@@ -19,9 +19,10 @@
 body {
     display: grid;
    /* grid-template-columns: 100px 1fr;*/
-    grid-template-columns: 100px auto;
-    grid-template-rows: 140px auto auto auto;
-    
+   /* grid-template-columns: 100px auto;
+    grid-template-rows: 140px auto auto auto;*/
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto auto;
     
     font-family: Arial, Helvetica, sans-serif;
     min-height: 100vh;
@@ -78,7 +79,7 @@ nav {
 }
 
 nav ul li {
-    padding: 20px;
+    padding: 20px; /*elimine para ver como queda*/
     margin-top: 30px;
 }
 
@@ -149,7 +150,7 @@ footer h2 {
     justify-content: center;
     background-color: #6d8ea0;
     height: auto;
-    margin: 30px;
+    /*margin: 30px;   correccion code*/
 }
 
 .nav-engloba-comunicate {
@@ -214,18 +215,14 @@ footer h2 {
     list-style: none;
 }
 
+/********************** Estilos index.html **********************/
 
-/*********************    Estilos index    ****************/
-
-
-/* seccion1 (ex portada)*/
-/*grid area*/
+/*estilos generales a todas paginas*/ 
 
 .section1 {
-
-   padding: 30px;
     grid-area: section1;
-    /*text-align: center;*/
+    
+    padding: 30px;
     background-color: white;
     display: flex;
     flex-direction: column;
@@ -249,11 +246,18 @@ footer h2 {
     font-size: large;
 }
 
+/* index*/
+/*
+.section1--index{
+ background-color: red;
+}*/
+
 /* section2 seccion imagenes departamentos*/
 /*grid area*/
 .section2 {
-    padding: 50px;
     grid-area: section2;
+    
+    padding: 40px;
     background-color: lightblue;
     display: flex;
     flex-direction: row;
@@ -262,15 +266,15 @@ footer h2 {
     justify-items: center;
     justify-content: flex-end;
     /*align-items: center;*/
-    width: 100vw;
+    width: 100%;
    
 }
 
 
 .depto {
-    /*margin: 20px;*/
+    margin: 10px;
     /*display: inline-block;*/
-    width: 40vw;
+    padding: 10px;
     width: 40%;
     /*position: relative;
     left: 70px;*/
@@ -298,18 +302,18 @@ footer h2 {
 */
 /*********************   Sobre Nosotros    *****************/
 
-/* Estilos para la página sobrenosotros.html */
+/* Estilos para la página sobrenosotros.html **********************/
 
-.sobreNosotros-section1 {
-    background-color: blue;
+.section1--sobreNosotros {
+    text-align: center;
+    background-color: white;
 }
 
 
 
 /* seccion sobrenosotros*/
 #sobre-nosotros {
-    text-align: center;
-    background-color: white;
+   ;
 }
 
 #sobre-nosotros div {

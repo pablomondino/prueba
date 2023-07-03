@@ -1,0 +1,4 @@
+esta armado sitio 
+grid ok
+saque desplazamiento
+esta revisado index y sobre nosotros
