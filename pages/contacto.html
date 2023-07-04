@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="es">
 
@@ -8,7 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./img/Logo_edifio_rincon (1).png" type="image/x-icon">
-    <link rel="stylesheet" href="../css/style.css">
     <!--fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,9 +13,11 @@
         href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@600&family=Roboto:ital,wght@0,400;0,700;1,900&display=swap"
         rel="stylesheet">
     <title>Edificio Rincón | Sobre Nosotros</title>
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 
 <body class="grid-template">
+
     <!--header-->
     <header class="header">
         <a class="logo" href="#">
@@ -29,6 +28,7 @@
             <h1> EDIFICIO RINCON</h1>
         </div>
     </header>
+
     <!--nav-->
     <nav>
         <ul class="barra-paginas">
@@ -40,56 +40,87 @@
         </ul>
     </nav>
 
-    <!--section id=portada-->
-    <section class="section1" id="portada">
-        <!-- 
-        <img src="./img/foto_ejemplo_ingreso a edificio.jpg" alt="">
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus nesciunt deleniti exercitationem
-            soluta
-            tenetur illo magnam non repudiandae beatae expedita, ipsum quidem nisi? Deleniti deserunt voluptates
-            dignissimos! Repellat, consequuntur maxime.</p>
-            -->
-            <div>
-                <h2> Contacto - arreglando</h2>
-                <h3>Alquileres Temporarios EDIFICIO RINCON</h3>
-            </div>
-            <p>dolor sit amet consectetur adipisicing elit. Possimus nesciunt deleniti exercitationem
-                soluta
-                tenetur illo magnam non repudiandae beatae expedita, ipsum quidem nisi? Deleniti deserunt voluptates
-                dignissimos! Repellat, consequuntur maxime. Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Possimus nesciunt deleniti exercitationem
-                soluta
-                tenetur illo magnam non repudiandae beatae expedita, ipsum quidem nisi? Deleniti deserunt voluptates
-                dignissimos! Repellat, consequuntur maxime.
-            </p>
-    
+    <!--section1-->
+
+
+    <section class="section1 section1--contacto">
+        <div>
+            <h2> Formulario para solicitar reserva</h2>
+            <h3>Alquileres Temporarios EDIFICIO RINCON</h3>
+        </div>
     </section>
 
 
-    <!--section id=imagenes-departamentos-->
-    <section  class="section2" id="imagenes-departamentos">
-        <section id="donde-nos-encontramos">
-            <h2>¿Donde nos encontramos?</h2>
-            <div id="engloba-iframe-y-p">
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27241.505943867876!2d-64.20971129598132!3d-31.408939283057823!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432995af7c22483%3A0xa345c64bc01c2130!2sAlto%20Paz%20Tower!5e0!3m2!1ses-419!2sar!4v1684712232902!5m2!1ses-419!2sar"
-                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"></iframe>
 
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus nesciunt deleniti exercitationem
-                    soluta
-                    tenetur illo magnam non repudiandae beatae expedita, ipsum quidem nisi? Deleniti deserunt voluptates
-                    dignissimos! Repellat, consequuntur maxime. Lorem ipsum, dolor sit amet consectetur adipisicing
-                    elit. Possimus nesciunt deleniti exercitationem
-                    soluta
-                    tenetur illo magnam non repudiandae beatae expedita, ipsum quidem nisi? Deleniti deserunt voluptates
-                    dignissimos! Repellat, consequuntur maxime.
-                </p>
-            </div>
-        </section>
 
+    <!--section2-->
+    <section class="section2 section2--contacto">
+        <form action="">
+            <fieldset id="datos-de-contacto">
+                <legend> <strong> Datos de Contacto</strong></legend>
+                <div>
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre">
+                </div>
+                <div>
+                    <label for="apellido">Apellido</label>
+                    <input type="text" name="" id="apellido">
+                </div>
+                <div>
+                    <label for="correoElectronico">Correo Electónico</label>
+                    <input type="email" name="" id="correoElectronico">
+                </div>
+                <div>
+            </fieldset>
+
+            <fieldset id="info-pedido">
+                <legend><strong>Información sobre pedido</strong></legend>
+
+                <label for="elegir">Ingrese tipo de departamento</label>
+                <select name="" id="elegir">
+                    <option value="mono">Monoambiente</option>
+                    <option value="1dor">Departamento 1 dormitorio</option>
+                    <option value="1dorConBalcon">Departamento 1 dormitorio con balcón</option>
+                    <option value="2dor">Departamento 2 dormitorios </option>
+
+                </select>
+
+                <div>
+                    <label for="ck-in">Check-in</label>
+                    <input type="date" name="" id="ck-in">
+                </div>
+                <div>
+                    <label for="ck-out">Check-out</label>
+                    <input type="date" name="" id="ck-out">
+                </div>
+                <div>
+                    <label for="cantidad-personas">Cantidad de personas</label>
+                    <input type="number" name="" id="cantidad-personas">
+                </div>
+
+                <div>
+                    <p>Elija si quiere con desayuno</p>
+                    <label for="con-desayuno">Con desayuno</label>
+                    <input type="radio" name="opcion" id="con-desayuno">
+                    <label for="sin-desayuno">Sin desayuno</label>
+                    <input type="radio" name="opcion" id="sin-desayuno">
+                </div>
+
+                <div>
+                    <label for="textarea">deje su consulta</label>
+                    <textarea name="consulta" id="textarea" cols="30" rows="10"></textarea>
+                </div>
+
+                <div>
+                    <button class="boton" type="submit">Enviar</button>
+                    <input class="boton" type="reset" value="Limpiar">
+                </div>
+            </fieldset>
+
+        </form>
     </section>
 
+    <!--footer-->
     <footer>
 
         <div class="engloba-comunicate-seguinos">
@@ -116,7 +147,8 @@
                 <h2>¡Seguinos!</h2>
                 <div class="nav-engloba-seguinos">
                     <ul class="face-inst-twitt">
-                        <li><a href="https://www.facebook.com/"><img src="../img/logo_face.png" alt="logo de facebook"></a>
+                        <li><a href="https://www.facebook.com/"><img src="../img/logo_face.png"
+                                    alt="logo de facebook"></a>
                         </li>
                         <li><a href="https://www.instagram.com/"><img src="../img/logo_instagram.png"
                                     alt="logo de instagram"></a></li>
@@ -133,9 +165,9 @@
         </span>
 
     </footer>
-       
+
     <!--footer-->
-   <!-- <footer >
+    <!-- <footer >
 
         <div class="engloba-comunicate-seguinos">
 

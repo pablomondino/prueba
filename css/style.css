@@ -312,20 +312,21 @@ footer h2 {
 
 
 /* seccion sobrenosotros*/
-#sobre-nosotros {
-   ;
+.section1 p {
+    padding: 10px ;
 }
-
-#sobre-nosotros div {
+    
+.section1--tarifa  {
     background-color: #6d8ea0;
     padding-bottom: 20px;
+    flex-direction: column;
 }
 
-#sobre-nosotros h2 {
+.section1--tarifa h2 {
     padding-top: 30px;
     padding-bottom: 30px;
 }
-
+/*
 #sobre-nosotros p {
     display: inline-block;
     padding-top: 20px;
@@ -334,10 +335,12 @@ footer h2 {
     text-align: center;
 }
 
-
-
+*/
+table {
+    border: solid 2px black;
+}
 /* seccion donde nos encontramos*/
-
+/*
 #donde-nos-encontramos {
 
     background-color: lightblue;
@@ -370,39 +373,56 @@ footer h2 {
 #engloba-iframe-y-p p {
     color: black;
 }
-
+*/
 /**********************   tarifa  *****************/
+.section1-titulo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section1--tarifa {
+    width: 100%;
+    background-color: lightblue;
+}
 
+.section2--tarifa {
+    width: 100%;
+   background-color:white;
+
+}
+.section2--tarifa{
+    flex-direction: column;
+    align-content: center;
+}
+
+/*
 #titulo_de_tabla {
     padding-top: 25px;
     padding-bottom: 25px;
     background-color: #6d8ea0;
     text-align: center;
 }
-
+*/
+/*
 #explicacion-tabla {
     margin: 30px 200px;
 }
+*/
 
 
-#tabla {
-    margin: 50px;
-    position: relative;
-    left: 25%;
-}
 
 /**************************  faq   ********************/
 
-#preguntas-frecuentes-titulo {
-    padding-top: 25px;
-    padding-bottom: 25px;
-    background-color: #6d8ea0;
-    text-align: center;
-}
 
-#preguntas-frecuentes-preguntas {
+
+.preguntas-frecuentes {
+   display: flex;
+   flex-direction: column;
+
+    width: 85%;
     padding: 50px;
-    justify-content: S;
+    background-color: #6d8ea0;
+    /*background-color: yellow;*/
 }
 
 #preguntas-frecuentes-preguntas div {
@@ -416,6 +436,11 @@ footer h2 {
 
 
 /****      seccion contacto   *****/
+
+.section2--contacto{
+    flex-direction: column;
+}
+
 #contacto {
     padding-top: 25px;
     padding-bottom: 25px;

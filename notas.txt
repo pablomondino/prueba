@@ -2,3 +2,8 @@ esta armado sitio
 grid ok
 saque desplazamiento
 esta revisado index y sobre nosotros
+
+termine proyecto hace falta eleiminar lineas de css que estan de maps
+hacer sasss
+grabo lunes a la noche
+
