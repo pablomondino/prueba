@@ -1,14 +1,22 @@
-esta armado sitio 
-grid ok
-saque desplazamiento
-esta revisado index y sobre nosotros
+borre 
+.depto__imagen {
+    border: darkblue solid 2px;
+   
+}
 
-termine proyecto hace falta eleiminar lineas de css que estan de maps
-hacer sasss
-grabo lunes a la noche
+.depto__boton {
+    background-color: rgb(239, 211, 31);
+    color: white;
+    font-size: 15px;
+    padding: 8px;
+    border-radius: 10px;
+    border: solid rgb(3, 3, 60) 2px;
+    box-shadow: 50px 3px 57px 18px rgba(0, 0, 0, 0.65);
+}
 
-TERCER PREENTREGA
-Tercera pre-entrega
+.depto__boton:hover {
+    background-color: green;
+}
 
 Formato: Archivos .json en 
 carpeta comprimida + link al repositorio
