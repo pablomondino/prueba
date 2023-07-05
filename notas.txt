@@ -10,7 +10,10 @@ grabo lunes a la noche
 TERCER PREENTREGA
 Tercera pre-entrega
 
-Formato: Archivos .json en carpeta comprimida + link al repositorio en GitHub.  Debe tener el nombre “PreEntrega3+Apellido”
+Formato: Archivos .json en 
+carpeta comprimida + link al repositorio
+ en GitHub. 
+  Debe tener el nombre “PreEntrega3+Apellido”
 
 Sugerencias: Activar comentarios en el archivo
 ------------------
@@ -46,8 +49,15 @@ Formar un archivo de SCSS con una sintaxis correcta, dónde el código no tenga 
 Utilizar SASS para personalizar el framework que estás usando.
 --------------------------------------------------
 Se debe entregar
-Estilo avanzado: se le mejorarán los elementos interactivos aplicando transformaciones, transiciones y/o animaciones. Transforma lo que originalmente eran estilos de CSS en SCSS. Utilizar las características de SCSS para armar estilos de CSS de forma dinámica.
-Estructura de la web: Usa etiquetas no solo para armar contenido, sino para armar los elementos que van a conformar el layout de la web, los contenedores, etc.
+Estilo avanzado: se le mejorarán los elementos
+ interactivos aplicando transformaciones, transiciones
+  y/o animaciones. Transforma lo que originalmente 
+  eran estilos de CSS en SCSS. 
+  Utilizar las características de SCSS para armar
+   estilos de CSS de forma dinámica.
+Estructura de la web: Usa etiquetas no solo para armar
+ contenido, sino para armar los elementos que van a 
+ conformar el layout de la web, los contenedores, etc.
 ************************************************************
 Tercera pre-entrega
 Técnicas SEO
@@ -61,7 +71,10 @@ Consigna
 Utilizar Git de forma correcta para versionar el proyecto. Hacer uso de GitHub para brindar acceso al proyecto versionado.
 Se debe entregar
 
-Enviar al repositorio todos los archivos necesarios para visualizar correctamente la web.
-Utilizar .gitignore para evitar enviar archivos irrelevantes para la presentación.
-En el repositorio se muestran los commit realizados para actualizar/versionar el código.
+Enviar al repositorio todos los archivos necesarios 
+para visualizar correctamente la web.
+Utilizar .gitignore para evitar enviar archivos 
+irrelevantes para la presentación.
+En el repositorio se muestran los commit realizados
+ para actualizar/versionar el código.
 **************************************
