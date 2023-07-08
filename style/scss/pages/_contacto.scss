@@ -1,0 +1,28 @@
+
+.section2--contacto {
+    flex-direction: column;
+
+    #contacto {
+        padding-top: 25px;
+        padding-bottom: 25px;
+        background-color: $color_secundario;
+        text-align: center;
+    }
+
+}
+
+
+form {
+    padding: 30px;
+    text-align: center;
+}
+
+#info-pedido {
+    position: relative;
+    top: 25px;
+
+    div {
+        margin: 25px;
+    }
+}
+

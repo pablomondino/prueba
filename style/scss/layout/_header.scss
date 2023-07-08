@@ -1,0 +1,12 @@
+header {
+    grid-area: header;
+    @include flex(row);
+    background-color: $color_header;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+
+    .titulo {
+        text-align: center;
+    }
+}

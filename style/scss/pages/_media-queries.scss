@@ -1,0 +1,141 @@
+
+/* media query para tablets
+estos estilos se aplican para resoluciones menores a 1024*/
+
+@media (max-width:1024px) {
+
+
+    body {
+
+        /* display: grid;*/
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto auto auto auto;
+        /* yo puse en tercer columna auto y anda bien*/
+
+        /*esto saco porque puse en una clase
+        grid-template-areas:
+            "header"
+            "nav"
+            "section1"
+            "section2"
+            "footer";
+        font-family: Arial, Helvetica, sans-serif;
+         */
+
+    }
+
+    .grid-template {
+        grid-template-areas:
+            "header"
+            "nav"
+            "section1"
+            "section2"
+            "footer";
+    }
+
+    nav {
+        /*flex-direction: row;*/
+
+
+        position: static;
+        height: auto;
+
+    }
+
+    .section2 {
+        justify-content: space-between;
+    }
+
+    .barra-paginas {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+}
+
+/*hasta aca 11*/
+
+
+/* media query para mobile
+estos estilos se aplican para resoluciones menores a 586*/
+
+
+@media (max-width:586px) {
+    body {
+        /* display: grid;*/
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto auto auto auto;
+        /* yo puse en tercer columna auto y anda bien*/
+        /*grid-template-areas:
+            "header"
+            "nav"
+            "section1"
+            "section2"
+            "footer";
+            */
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .grid-template {
+        grid-template-areas:
+            "header"
+            "nav"
+            "section1"
+            "section2"
+            "footer";
+    }
+
+    header {
+        flex-direction: column;
+    }
+
+    .section1 img {
+        height: 200px;
+        width: 300px;
+    }
+
+
+    .section2 {
+        flex-direction: column;
+    }
+
+    .depto {
+        margin: 20px;
+        width: 100%;
+        position: relative;
+        left: 0;
+
+    }
+
+    footer {
+        justify-content: space-around;
+        height: 700px;
+
+    }
+
+    footer span {
+        padding: 20px;
+        text-align: center;
+
+    }
+
+    .engloba-comunicate-seguinos {
+        flex-direction: column;
+
+    }
+
+    nav .barra-paginas {
+        flex-direction: column;
+        font-size: large;
+        align-items: center;
+        align-content: center;
+    }
+
+    nav .barra-pagina ul li {
+        text-decoration: none;
+        list-style: none;
+    }
+}
+
+/*hasta aca 12  fin*/

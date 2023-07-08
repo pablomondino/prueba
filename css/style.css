@@ -14,7 +14,7 @@
         "nav    section2"
         "nav    footer";
 }
-
+/*HASTA ACA COPIE1*/
 
 body {
     display: grid;
@@ -55,7 +55,7 @@ a {
 li {
     list-style: none;
 }
-
+/*hasta aca 2*/
 
 
 /*******************  nav   **********************/
@@ -80,7 +80,7 @@ nav ul li {
     margin-top: 30px;
 }
 
-
+/*hasta aca3*/
 /*******************  header   **********************/
 
 
@@ -100,7 +100,7 @@ header {
 }
 
 
-
+/*hasta aca 4*/
 
 /********************     footer    *************/
 
@@ -207,6 +207,8 @@ footer h2 {
     list-style: none;
 }
 
+/*hasta aca 5*/
+
 /********************** Estilos index.html **********************/
 
 /*estilos generales a todas paginas*/ 
@@ -238,6 +240,8 @@ footer h2 {
     margin-bottom: 20px;
     font-size: large;
 }
+
+/*hasta aca 6*/
 
 /* index*/
 
@@ -273,6 +277,7 @@ footer h2 {
    
 }
 
+/*hasta aca 7*/
 
 /* Estilos para la página sobrenosotros.html **********************/
 
@@ -325,7 +330,7 @@ table {
     align-content: center;
 }
 
-
+/*hasta aca 8*/
 
 /* Estilos para la página faq   ********************/
 
@@ -348,6 +353,7 @@ table {
 }
 
 
+/*hasta aca* 9 */
 
 
 /**********************   contacto    *****************/
@@ -380,7 +386,7 @@ form {
     margin: 25px;
 }
 
-
+/*hasta aca 10 */
 
 /********************
 medias queris
@@ -440,6 +446,8 @@ estos estilos se aplican para resoluciones menores a 1024*/
     }
 
 }
+
+/*hasta aca 11*/
 
 /* media query para mobile
 estos estilos se aplican para resoluciones menores a 586*/
@@ -521,3 +529,5 @@ estos estilos se aplican para resoluciones menores a 586*/
         list-style: none;
     }
 }
+
+/*hasta aca 12  fin*/

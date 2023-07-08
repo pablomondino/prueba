@@ -1,0 +1,20 @@
+nav {
+    @include flex(columns);
+
+    grid-area: nav;
+    background-color: black;
+    height: 100%;
+    color: white;
+
+    position: fixed;
+    left: 0;
+
+    ul {
+        li {
+            padding: 20px;
+            margin-top: 30px;
+        }
+    }
+}
+
+;

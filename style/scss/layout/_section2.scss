@@ -1,0 +1,32 @@
+.section2 {
+    grid-area: section2;
+
+    @include flex ();
+    //display: flex;
+    //flex-direction: row;
+    padding: 40px;
+    background-color: $color_principal;
+    
+    flex-wrap: wrap;
+    align-content: center;
+    justify-items: center;
+    justify-content: flex-end;
+    width: 100%;
+
+
+}
+
+
+.depto {
+    margin: 10px;
+
+    padding: 10px;
+    width: 40%;
+
+    &__imagen {
+        border: darkblue solid 2px;
+
+    }
+
+
+}

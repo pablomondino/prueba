@@ -1,0 +1,85 @@
+/****************  selector universal  *********/
+
+@import "../scss/base/reset";
+
+/****************  variables *******************/
+
+@import "../scss/abstracts/variables";
+
+/****************  elementos *******************/
+@import "../scss/components.scss/elements";
+
+/****************  mixins*******************/
+@import "../scss/abstracts/mixins";
+
+/***************** componente-boton ********/
+
+@import "../scss/components.scss/button";
+
+
+/***************** grid - body *****************/
+
+@import "../scss/layout/grid";
+
+
+/*******************  nav   **********************/
+
+/* grid area -------->>>nav   */
+
+@import "../scss/layout/nav";
+
+
+/*******************  header   **********************/
+
+/* grid area -------->>>header  */
+
+@import "../scss/layout/header";
+
+
+
+/******************  footer    **********************/
+
+/*grid area------>>>>footer*/
+
+@import "../scss/layout/_footer.scss";
+
+
+
+
+/*estilos index generales a todas paginas section1 */
+
+/*grid area ----->>>>section1*/
+@import "../scss/layout/_section1.scss";
+
+
+
+/*grid area ----->>>>section2*/
+
+@import "../scss/layout/section2";
+
+
+/* Estilos para la página sobrenosotros.html **********************/
+
+@import "../scss/pages/sobreNosotros";
+
+
+/* section Estilos para la página tarifa*/
+
+@import "../scss/pages/tarifa";
+
+
+/* Estilos para la página faq   ********************/
+
+@import "../scss/pages/faq";
+
+/* Estilos para la página contacto********************/
+
+
+@import "../scss/pages/contacto";
+
+
+/********************
+medias queris
+**********************/
+
+@import "../scss/pages/media-queries";

@@ -1,0 +1,4 @@
+@mixin flex($direccion:row){
+    display: flex;
+    flex-direction: $direccion;
+};

@@ -1,0 +1,14 @@
+.preguntas-frecuentes {
+    display: flex;
+    flex-direction: column;
+
+    width: 85%;
+    padding: 50px;
+    background-color: $color_secundario;
+
+    div {
+        margin-top: 20px;
+    }
+
+}
+
