@@ -1,84 +1,19 @@
-copie proyecto  de la tercer PreEntrega
+borre 
+.depto__imagen {
+    border: darkblue solid 2px;
+   
+}
 
-recomendaciones
-Ver adjunto
-06/07 21:23
-Hola buens noches!! 
-Aqui comparto los links de GitHub .
+.depto__boton {
+    background-color: rgb(239, 211, 31);
+    color: white;
+    font-size: 15px;
+    padding: 8px;
+    border-radius: 10px;
+    border: solid rgb(3, 3, 60) 2px;
+    box-shadow: 50px 3px 57px 18px rgba(0, 0, 0, 0.65);
+}
 
-https://pablomondino.github.io/PreEntrega3MondinoDeLaRossa/
-
-https://github.com/pablomondino/PreEntrega3MondinoDeLaRossa/settings/pages
-
-Saludos!!
-06/07 21:23
-Tutor Corrector
-Hola Pablo! Cómo estás?
-
-
-
-Muchas Gracias por esta última pre-entrega y felicitaciones por haber llegado hasta acá.
- Veamos las consignas:
-
-
-
-- Estructura final de la web: ✅ El sitio está bastante completo,
- bien estructurado, con contenido real, etiquetas semánticas y buena jerarquía. 
- Habría que revisar que la página de contacto ha quedado con un margen 
- a la izquierda que la desecaja del resto y que hay que solucionar.
-  También han quedad textos Lorem de prueba en las preguntas frecuentes
-  que habría que llenar.
-
-
-
-Quedan algunos detalles también como incoporar favicon al sitio o
- mejorar los íconos del footer que habíamos marcado en los feedback anteriores.
-
-
-
-Revisar que no queden imágenes con atributo alt vacío ni enlaces con href # solo.
-
-
-
-- Estilo final de la web: ✅ Estética coherente a lo largo de todo el sitio, 
-con estilos trabajados desde SASS y buena adaptabilidad mobile, 
-aunque con cosas por resolver aún. Lo importante es siempre usar el inspector
- de elementos para visualizar en dispositivos de 375px en adelante
-  y ver que funcione bien. No tiene que existir scroll horizontal,
-   sino que el contenido debe adaparse bien al ancho de pantalla.
-    El formato del menú en mobile podría mejorar y no ocupar tanto espacio,
-     o bien pasar a ser menú hamburguesa aprovechando algún recurso como Bootstrap.
-
-
-
-- Técnicas SEO: ❌ Deberíamos ver las etiquetas meta keywords
- y description en todos los HTML, adaptadas a su contenido puntual, 
- y por ahora solo las vemos en el index.
-  También habría que tener UN solo encabezado h1 en todas las páginas,
-   ya que es una etiqueta que no se puede repetir. 
-   Eso mas los titles de la páginas y los alts de las imágenes completos serían la 
-   base para un buen SEO.
-
-
-
-- Repositorio en GitHub: ✅Sitio correctamente subido a GitHub. 
-
-
-
-Queda trabajo por delante pero viene bien! 💪
-
-
-
-Saludos!
-
-
-
-07/07 13:44
-Tutor Corrector
-La entrega obtiene una calificación de Correcto.
-07/07 13:44
-Hola, bueno  muchas gracias!! Tendré en cuenta todas las observaciones. Saludos!!
-
-Gracias!!
-
-07/07 18:50
+.depto__boton:hover {
+    background-color: green;
+}
