@@ -4,7 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /*border: solid 2px black;*/
+  /*  border: solid 2px yellow;*/
 }
 
 /****************  variables *******************/
@@ -224,6 +224,7 @@ footer h2 {
 }
 .section1 p {
   padding: 20px 80px;
+  /*padding: 20px 20px;*/
   text-align: center;
   margin-top: 30px;
   max-width: 70%;
@@ -236,7 +237,7 @@ footer h2 {
   grid-area: section2;
   display: flex;
   flex-direction: row;
-  padding: 40px;
+  /*padding: 40px;*/
   background-color: lightblue;
   flex-wrap: wrap;
   align-content: center;
