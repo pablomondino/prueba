@@ -255,6 +255,11 @@ footer h2 {
   border: darkblue solid 2px;
 }
 
+/* Estilos para la página index.html **********************/
+.section1--index img {
+  padding-left: 10rem;
+}
+
 /* Estilos para la página sobrenosotros.html **********************/
 .section1--sobreNosotros {
   text-align: center;
