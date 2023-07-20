@@ -1,7 +1,11 @@
 .section1--index {
-        
+    h2{
+        margin-bottom: 10px;
+    }   
     img{
-        padding-left: 10rem;
+        margin-left: 20 rem;
+        background-color: yellow;
+        object-fit: contain;
     }
    
 }
