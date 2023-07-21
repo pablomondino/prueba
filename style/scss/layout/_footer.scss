@@ -10,12 +10,16 @@ footer {
     align-items: center;
     width: 100%;
     width: auto;
+    height: auto;
     h2 {
-        color: white;
+        color: rgb(255, 255, 255);
+    }
+    span{
+        color: white
     }
 }
 
-;
+
 
 
 
@@ -81,7 +85,7 @@ footer {
     align-items: center;
     justify-content: center;
     position: relative;
-    left: 30px;
+    /*left: 30px;*/
 
     .nav-engloba-seguinos {
         display: flex;

@@ -90,8 +90,7 @@ body {
 /*******************  nav   **********************/
 /* grid area -------->>>nav   */
 nav {
-  display: flex;
-  flex-direction: columns;
+  /*@include flex(columns);*/
   grid-area: nav;
   background-color: black;
   height: 100%;
@@ -132,8 +131,12 @@ footer {
   align-items: center;
   width: 100%;
   width: auto;
+  height: auto;
 }
 footer h2 {
+  color: rgb(255, 255, 255);
+}
+footer span {
   color: white;
 }
 
@@ -189,7 +192,7 @@ footer h2 {
   align-items: center;
   justify-content: center;
   position: relative;
-  left: 30px;
+  /*left: 30px;*/
 }
 .footer-seguinos .nav-engloba-seguinos {
   display: flex;
@@ -253,26 +256,63 @@ footer h2 {
 }
 .depto__imagen {
   border: darkblue solid 2px;
+  width: 80%;
 }
 
 /* Estilos para la página index.html **********************/
+.section1--index {
+  width: 100%;
+}
 .section1--index h2 {
   margin-bottom: 10px;
 }
 .section1--index img {
-  margin-left: 20 rem;
+  /* margin-left: 20 rem;*/
   background-color: yellow;
+  object-fit: contain;
+}
+
+.section2--index {
+  width: 100%;
+}
+.section2--index img {
   object-fit: contain;
 }
 
 /* Estilos para la página sobrenosotros.html **********************/
 .section1--sobreNosotros {
   text-align: center;
-  background-color: white;
+  /* background-color: white;*/
 }
 
 .section1 p {
   padding: 10px;
+}
+
+.section2--sobreNosotros {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.section2--sobreNosotros h2 {
+  margin: 10px;
+  text-align: center;
+}
+
+.engloba-iframe-y-p {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.engloba-iframe-y-p iframe {
+  object-fit: cover;
+}
+.engloba-iframe-y-p p {
+  max-width: 70%;
+  margin: 10px;
+  margin: 10px;
 }
 
 /* section Estilos para la página tarifa*/
@@ -302,37 +342,65 @@ table {
   background-color: white;
   flex-direction: column;
   align-content: center;
+  padding: 25px;
 }
 
 /* Estilos para la página faq   ********************/
 .preguntas-frecuentes {
   display: flex;
   flex-direction: column;
-  width: 85%;
+  /* width: 100%;*/
   padding: 50px;
   background-color: #6d8ea0;
 }
 .preguntas-frecuentes div {
-  margin-top: 20px;
+  margin: 10px;
+  margin-left: 130px;
+  margin-right: 20px;
+  text-align: center;
+}
+
+.section2--faq {
+  /*padding-left: 50px;*/
+  /*   display: flex;*/
+  /*   flex-direction: column;*/
+  border-left: 120px;
+}
+.section2--faq div {
+  margin: 10px;
+  margin-left: 130px;
+  margin-right: 20px;
+  text-align: center;
 }
 
 /* Estilos para la página contacto********************/
 .section2--contacto {
   flex-direction: column;
 }
-.section2--contacto #contacto {
+.section2--contacto #datos-de-contacto {
   padding-top: 25px;
   padding-bottom: 25px;
-  background-color: #6d8ea0;
+  /*background-color: $color_secundario;*/
   text-align: center;
+  /*position: relative;
+  top: 25px;*/
+}
+.section2--contacto #datos-de-contacto div {
+  margin: 25px;
 }
 
 form {
-  padding: 30px;
+  /*padding: 30px;*/
   text-align: center;
 }
 
 #info-pedido {
+  position: relative;
+  top: 25px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  /*background-color: $color_secundario;*/
+  text-align: center;
   position: relative;
   top: 25px;
 }
@@ -377,6 +445,9 @@ estos estilos se aplican para resoluciones menores a 1024*/
     flex-direction: row;
     justify-content: center;
   }
+  .engloba-comunicate-seguinos {
+    flex-direction: column;
+  }
 }
 /*hasta aca 11*/
 /* media query para mobile
@@ -406,12 +477,19 @@ estos estilos se aplican para resoluciones menores a 586*/
     height: 200px;
     width: 300px;
   }
+  .section2--sobreNosotros {
+    text-align: center;
+  }
+  .section2--sobreNosotros h2 {
+    margin: 10px;
+    text-align: center;
+  }
   .section2 {
     flex-direction: column;
   }
   .depto {
-    margin: 20px;
-    width: 100%;
+    /*margin: 10px;*/
+    width: 80%;
     position: relative;
     left: 0;
   }

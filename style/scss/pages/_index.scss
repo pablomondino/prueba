@@ -1,11 +1,18 @@
 .section1--index {
+    width: 100%;
     h2{
         margin-bottom: 10px;
     }   
     img{
-        margin-left: 20 rem;
+       /* margin-left: 20 rem;*/
         background-color: yellow;
         object-fit: contain;
     }
    
+}
+.section2--index{
+    width: 100%;
+    img{
+        object-fit: contain;
+    }
 }

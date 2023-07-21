@@ -1,6 +1,6 @@
 .section1--sobreNosotros {
     text-align: center;
-    background-color: white;
+    /* background-color: white;*/
 }
 
 
@@ -8,4 +8,33 @@
 
 .section1 p {
     padding: 10px;
+}
+
+.section2--sobreNosotros {
+       
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    h2{
+        margin: 10px;
+        text-align: center;
+    }
+}
+
+.engloba-iframe-y-p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    iframe {
+        object-fit: cover;
+    }
+
+    p {
+        max-width: 70%;
+        margin: 10px;
+        margin: 10px
+    }
 }

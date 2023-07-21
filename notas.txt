@@ -1,0 +1,44 @@
+Hola Pablo! Cómo estás?
+
+
+
+Muchas Gracias por esta última pre-entrega y felicitaciones por haber llegado hasta acá. Veamos las consignas:
+
+
+
+- Estructura final de la web: ✅ El sitio está bastante completo, bien estructurado, con contenido real, etiquetas semánticas y buena jerarquía.
+
+ Habría que revisar que la página de contacto ha quedado con un margen a la izquierda que la desecaja del resto y que hay que solucionar.
+
+  También han quedad textos Lorem de prueba en las preguntas frecuentes que habría que llenar.
+
+
+
+Quedan algunos detalles también como incoporar favicon al sitio o mejorar los íconos del footer que habíamos marcado en los feedback anteriores.
+
+
+
+Revisar que no queden imágenes con atributo alt vacío ni enlaces con href # solo.
+
+
+
+- Estilo final de la web: ✅ Estética coherente a lo largo de todo el sitio, con estilos trabajados desde SASS y buena adaptabilidad mobile, aunque con cosas por resolver aún. Lo importante es siempre usar el inspector de elementos para visualizar en dispositivos de 375px en adelante y ver que funcione bien. No tiene que existir scroll horizontal, sino que el contenido debe adaparse bien al ancho de pantalla. El formato del menú en mobile podría mejorar y no ocupar tanto espacio, o bien pasar a ser menú hamburguesa aprovechando algún recurso como Bootstrap.
+
+
+
+- Técnicas SEO: ❌ Deberíamos ver las etiquetas meta keywords y description en todos los HTML, adaptadas a su contenido puntual, y por ahora solo las vemos en el index.
+ También habría que tener UN solo encabezado h1 en todas las páginas, ya que es una etiqueta que no se puede repetir. 
+Eso mas los titles de la páginas y los alts de las imágenes completos serían la base para un buen SEO.
+
+
+
+- Repositorio en GitHub: ✅Sitio correctamente subido a GitHub. 
+
+
+
+Queda trabajo por delante pero viene bien! 💪
+
+
+
+Saludos!
+
